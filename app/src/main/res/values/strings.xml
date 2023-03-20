@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NNWeather</string>
+    <string name="app_name">牛牛天气</string>
 
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar"></style>
 </resources>
