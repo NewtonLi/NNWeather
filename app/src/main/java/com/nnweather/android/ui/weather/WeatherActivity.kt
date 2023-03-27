@@ -121,7 +121,7 @@ class WeatherActivity : AppCompatActivity() {
             val sky = getSky(skycon.value)
             skyIcon.setImageResource(sky.icon)
             skyInfo.text = sky.info
-            val tempText = "${temperature.min.toInt()} ~ ${temperature.min.toInt()} ℃"
+            val tempText = "${temperature.min.toInt()} ~ ${temperature.max.toInt()} ℃"
             temperatureInfo.text = tempText
             forecastLayout.addView(view)
         }
